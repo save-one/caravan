@@ -1,0 +1,12 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header {
+	width: auto; /* 横幅　*/
+	height: 120px; /* 高さ */
+	background-color: red; /* 背景色 */
+}
+
