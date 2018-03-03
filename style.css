@@ -41,11 +41,25 @@ header .headline{   /*headerタグ内のheadlineクラスにのみ反映され�
 .main-visual {
 	width: 100%;
 	height: 300px;
+	background-image: url(img/mv.jpg);
+	background-size: cover;
+	background-position: center;
 }
 
 .main-visual-content {
-	width: 350px; /*指定*/
+	width: 40%; /*指定*/
 	height: 300px; /*指定*/
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	padding-top: 105px;
+}
+.main-visual-text{
+
+color: #fff;
+}
+.main-visual-name{
+	margin-top: 30px;
+	color: #fff;
 }
 
 .main {
